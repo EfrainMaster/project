@@ -3,8 +3,8 @@
 //Transformacion de textos
 
 var numero=555;
-var texto1="Bienvenido al curso de Efrain Crack";
-var texto2="buen curso";
+var texto1="Bienvenido Efrain";
+var texto2="buenas";
 
 var dato=typeof numero.toString();
 	dato= texto1.toLowerCase();
