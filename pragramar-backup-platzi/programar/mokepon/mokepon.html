@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Mokepon</title>   
+        <link rel="stylesheet" href="../styles.css"/>
+    </head>
+    <body>
+        <!-- <h1 id="titulo-id" class="titulo">Mokepon!🔥💧🌻</h1> -->
+        <section id="selecMascota"> <!-- ELEMENTO PADRE -->
+            <h1 id="titulo-id" class="titulo">Mokepon!🔥💧🌻</h1>
+
+            <h2 class="subtitulo">Elige tu mascota:</h2>
+
+            <div id="contenedorTarjetas" class="tarjetas">
+
+            </div>           
+         <button id="selectMasc">Seleccionar</button>
+        </section>
+        <section id="selecAtac"> <!-- ELEMENTO PADRE -->
+            <h1 id="titulo-id" class="titulo">Mokepon!🔥💧🌻</h1>
+
+            <h2 class="subtitulo">Elige tu Ataque:</h2>
+
+            <div id="contenedorAtaques" class="botonA"> <!-- ELEMENTO PADRE -->
+                <!-- <button id="btn-fuego" class="boton-ataque">Fuego🔥</button> -->
+                <!-- <button id="btn-agua" class="boton-ataque">Agua💧</button> -->
+                <!-- <button id="btn-tierra" class="boton-ataque">Tierra🌻</button> -->
+            </div>
+        
+                <div id="mensajes">    
+                    <p id="resultado">Mucha Suerte</p>     
+                    <section id="reiniciar">
+                        <button id="btn-reset">Reiniciar</button>
+                    </section>         
+                </div>
+
+                <!-- <p id="resultado"></p> -->
+                <!-- <div id="ataques-del-jugador"></div>
+                <div id="ataques-del-enemigo"></div> -->
+
+              
+            
+            <div class="ataque"> <!-- ELEMENTO PADRE -->
+                <div class="ataques-jugador">
+                    <p id="vidas-jugador">0</p>
+                    <p id="mascota-jugador"></p>
+                    <div id="ataques-del-jugador"></div>
+                </div>
+                <div class="ataques-enemigo">
+                    <p id="vidas-enemigo">0</p>
+                    <p id="mascota-enemigo"></p>
+                    <div id="ataques-del-enemigo"></div>
+                </div>               
+            </div>         
+        </section>
+        <script src="../js/mascotas.js"></script> <!-- PONER EL JAVASCRIPT EN EL BODY MEJORA
+        MUCHIMO LA VELOCIDAD DE LA PÁGINA POR QUE CARGA EL HTML Y CSS PRIMERO -->
+    </body>
+</html>
+
+
+
+
+
+            <!-- <input type="radio" name="mascotadual" id="superwather"/>
+            <label for="superwather">superwather -> agua y Tierra🌻</label><br>
+
+            <input type="radio" name="mascotadual" id="firewat"/>
+            <label for="firewat">firewat -> tierra y Fuego🔥</label><br>
+
+            <input type="radio" name="mascotadual" id="recath"/>
+            <label for="recath">recath -> agua y fuego</label><br> -->
+
+              <!-- <p>Tu mascota ataco con <span id="ataque-jugador">Fuego</span>, y la mascota de tu enemigo ataco con <span id="ataque-enemigo">TIERRA</span> - GANASTE 🎉 </p> -->
+
+                      <!-- <p>
+            <button>Fuego🔥</button>
+            <button>Agua💧</button>
+            <button>Tierra🌻</button>
+        </p> -->
+
+        <!-- <script src="../js/mascotas.js"></script> -->
+
+        <!-- 
+                            <input type="radio" name="mascota" id="thepetwater"/>  name es para encapsular 
+                            <label class="tarjeta-mokepon" for="thepetwater">
+                                <P>Thepetwater -> Agua💧</P>
+                                <img src="../assets/mokepons_mokepon_hipodoge_attack.png" alt="Thepetwater">
+                             </label>
+                              el for es para vincular el label con id de input
+                             <input type="radio" name="mascota" id="petfire"/>
+                             <label class="tarjeta-mokepon" for="petfire">
+                                <P>Petfire -> fire🔥</P>
+                                <img src="../assets/mokepons_mokepon_ratigueya_attack.png" alt="Earthbol">
+                             </label>
+                 
+                             <input type="radio" name="mascota" id="earthbol"/>
+                             <label class="tarjeta-mokepon" for="earthbol">
+                                 <P>Earthbol -> Tierra🌻</P>             
+                                 <img src="../assets/mokepons_mokepon_capipepo_attack.png" alt="Earthbol">
+                             </label>
+        -->

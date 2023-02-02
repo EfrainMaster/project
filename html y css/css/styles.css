@@ -1,0 +1,29 @@
+			h2{
+				display: inline-block;
+				margin-right: 5px;
+				background: blue;
+				margin-left: 5px;
+
+
+
+			}
+
+			h2 a{
+				text-decoration: none;
+				color: white;
+				transition: all 1.9 ease;
+				cursor: pointer;
+			}
+		
+
+			div{
+				margin-left: 20%;
+				background: blue;
+				width: 500px;
+			}
+
+			#articulo:hover{
+				transform: scale(1.5);
+				background: rgba(83, 83, 216, 0.5);
+
+			}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body style="background: blue;">
+	<h1 style="margin-left: 10%; color: white;">Formulario</h1><hr>
+	<form style="margin-left: 10%;" name="employment" action="send.php" method="post">
+		<table style="background: #eee;" width="600px" border="1" cellpadding="2" cellspacing="2">
+			<tr>
+				<td>Employment</td>
+				<td></td>	
+			</tr>
+			
+			<tr>
+				<td>First Name</td>
+				<td><input type="text" name="fname" maxlength="50"></td>	
+			</tr>
+			
+			<tr>
+				<td>Last Name</td>
+				<td><input type="text" name="lname" maxlength="50"></td>	
+			</tr>
+			
+			<tr>
+				<td>Position</td>
+				<td>
+					<select name="position">
+						<option value="AC">Accountant</option>
+						<option value="RE">Receptionist</option>
+						<option value="AD">Administrator</option>
+						<option value="SU">Supervisor</option>
+					</select>
+				</td>	
+			</tr>
+			
+			<tr>
+				<td>Experience Level</td>
+				<td>
+					<select name="experience">
+						<option value="EL">Entry Level</option>
+						<option value="SE">Some Experience</option>
+						<option value="VE">Very Experience</option>		
+					</select>
+				</td>	
+			</tr>
+			
+			<tr>
+				<td>Job Type</td>
+				<td>
+					<input type="checkbox" name="FT"/>Full Time
+					<input type="checkbox" name="PT"/>Part Time
+					<input type="checkbox" name="C"/>Contrat
+				</td>	
+			</tr>
+			
+			<tr>
+				<td>Employment Status</td>
+				<td>
+					<input type="radio" name="estatus" value="Employed"/>Employed
+					<input type="radio" name="estatus" value="Unemployed"/>Unemployed
+					<input type="radio" name="estatus" value="Student"/>Student
+
+				</td>	
+			</tr>
+			
+			<tr>
+				<td>Aditional Coment</td>
+				<td>
+					<textarea name="coment" cols="50" rows="5"></textarea>
+				</td>	
+			</tr>
+
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" name="submit" value="Submit"/>
+					<input type="reset" name="reset" value="Reset"/>
+				</td>	
+			</tr>
+
+
+		</table>
+
+	</form>
+
+</body>
+</html>
