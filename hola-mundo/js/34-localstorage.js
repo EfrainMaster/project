@@ -10,7 +10,7 @@ if(typeof (Storage) !=='undefined'){
 }
 
 // Guardar datos
-localStorage.setItem("Título", "Curso de javascript de Efrain");
+localStorage.setItem("Título", "Javascript de Efrain");
 
 // Recuperar Elemento
 console.log(localStorage.getItem("Título"));
