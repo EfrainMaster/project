@@ -1,3 +1,3 @@
 # project y cursos
 
-Web (https://efrainweb.com/)
+Web : https://efrainweb.com
